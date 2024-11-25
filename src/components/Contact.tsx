@@ -1,4 +1,3 @@
-import React from 'react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 function Contact() {
@@ -30,6 +29,13 @@ function Contact() {
                     className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
                   />
                 </div>
+              </div>
+              <div className="mb-6">
+                <label className="block text-gray-700 mb-2">Tel</label>
+                <input
+                  type="text"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+                />
               </div>
               <div className="mb-6">
                 <label className="block text-gray-700 mb-2">Sujet</label>

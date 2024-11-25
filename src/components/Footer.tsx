@@ -1,4 +1,3 @@
-import React from 'react';
 import { Facebook, Twitter, Instagram, GraduationCap } from 'lucide-react';
 
 function Footer() {
@@ -9,7 +8,7 @@ function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <GraduationCap className="h-8 w-8 text-pink-500" />
-              <span className="ml-2 text-xl font-bold">SMSJ</span>
+              <span className="ml-2 text-xl font-bold">CPSJ</span>
             </div>
             <p className="text-gray-400">
               Excellence académique et développement personnel depuis plus de 20 ans.
